@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+*.local
+.vercel/
+
+# Environment
+.env
+.env.local
+
+# Generated artifacts / logs
+*.log
+.DS_Store
+.pgdata/
+data/exports/*.csv
+reports/excel/*.xlsx
+!data/exports/.gitkeep
+!reports/excel/.gitkeep
